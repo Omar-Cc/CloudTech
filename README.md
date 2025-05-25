@@ -37,21 +37,6 @@ tecnologias-cloud-website/
 │   ├── parallax.css          # Estilos para el efecto Parallax
 │   └── slider.css            # Estilos para el carrusel de imágenes
 ├── image/                    # Imágenes locales del proyecto (si las hubiera, actualmente usa URLs)
-│   ├── AI-and-ML.jpg
-│   ├── AI-Cloud.jpg
-│   ├── Cloud-Computing.avif
-│   ├── Cloud-Database.jpg
-│   ├── Cloud-Deployment.jpg
-│   ├── Cloud-Monitoring.jpg
-│   ├── Cloud-Network.jpg
-│   ├── Cloud-Storage.jpg
-│   ├── Cloud-Storage.webp
-│   ├── Containerization.jpg
-│   ├── Data-Center.webp
-│   ├── DevOps.jpg
-│   ├── Security.webp
-│   ├── Serverless.jpg
-│   └── Virtual-Machines.jpg
 └── pages/                    # Páginas secundarias
     ├── contacto.html         # Página de Contacto
     ├── galeria.html          # Página de Galería de imágenes
