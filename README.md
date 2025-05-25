@@ -39,7 +39,7 @@ tecnologias-cloud-website/
 ├── image/                    # Imágenes locales del proyecto (si las hubiera, actualmente usa URLs)
 │   ├── AI-and-ML.jpg
 │   ├── AI-Cloud.jpg
-│   ├── Cloud-Computing.jpg
+│   ├── Cloud-Computing.avif
 │   ├── Cloud-Database.jpg
 │   ├── Cloud-Deployment.jpg
 │   ├── Cloud-Monitoring.jpg

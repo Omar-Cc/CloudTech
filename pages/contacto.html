@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto - CloudTech</title>
+  <link rel="icon" type="image/jpeg" href="../image/logo-cloudtechnologies.jpg">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/parallax.css">
 </head>
@@ -12,7 +13,10 @@
 <body>
   <header>
     <nav>
-      <div class="logo">CloudTech</div>
+      <div class="logo">
+        <img src="../image/logo-cloudtechnologies.jpg" alt="CloudTech" class="logo-img">
+        CloudTech
+      </div>
       <ul>
         <li><a href="../index.html">Inicio</a></li>
         <li><a href="servicios.html">Servicios</a></li>
@@ -25,10 +29,8 @@
   </header>
 
   <main>
-    <!-- Banner con Parallax -->
     <section class="parallax-section">
-      <div class="parallax-bg"
-        style="background-image: url('https://images.unsplash.com/photo-1521790797524-b2497295b8a0');">
+      <div class="parallax-bg" style="background-image: url('../image/Contact.avif');">
         <div class="parallax-content">
           <h2>Contáctanos</h2>
           <p>Estamos listos para transformar tu negocio con tecnología cloud</p>
@@ -36,7 +38,6 @@
       </div>
     </section>
 
-    <!-- Sección de Contacto Principal -->
     <section class="contact-section">
       <div class="container">
         <div class="contact-grid">
@@ -47,8 +48,8 @@
 
             <div class="contact-details">
               <div class="contact-item">
-                <div class="contact-icon">
-                  <img src="https://cdn-icons-png.flaticon.com/512/5726/5726070.png" alt="Ubicación">
+              <div class="contact-icon">
+                  <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Ubicación" style="filter: grayscale(100%);">
                 </div>
                 <div class="contact-text">
                   <h3>Ubicación</h3>
@@ -59,7 +60,7 @@
 
               <div class="contact-item">
                 <div class="contact-icon">
-                  <img src="https://cdn-icons-png.flaticon.com/512/5726/5726040.png" alt="Teléfono">
+                  <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Teléfono" style="filter: grayscale(100%);">
                 </div>
                 <div class="contact-text">
                   <h3>Teléfono</h3>
@@ -70,7 +71,7 @@
 
               <div class="contact-item">
                 <div class="contact-icon">
-                  <img src="https://cdn-icons-png.flaticon.com/512/5726/5726024.png" alt="Email">
+                  <img src="https://cdn-icons-png.flaticon.com/512/542/542638.png" alt="Email" style="filter: grayscale(100%);">
                 </div>
                 <div class="contact-text">
                   <h3>Email</h3>
@@ -81,7 +82,7 @@
 
               <div class="contact-item">
                 <div class="contact-icon">
-                  <img src="https://cdn-icons-png.flaticon.com/512/5726/5726022.png" alt="Horario">
+                  <img src="https://cdn-icons-png.flaticon.com/512/2784/2784459.png" alt="Horario" style="filter: grayscale(100%);">
                 </div>
                 <div class="contact-text">
                   <h3>Horario de Atención</h3>
@@ -162,12 +163,10 @@
       </div>
     </section>
 
-    <!-- Mapa de ubicación -->
     <section class="map-section">
       <div class="container">
         <h2>Nuestra Ubicación</h2>
         <div class="map-container">
-          <!-- Iframe de Google Maps (ejemplo) -->
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.6755002505456!2d-77.03842790110994!3d-12.065833634786147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8ea53921e53%3A0xbabf3c59fc7faba7!2sJir%C3%B3n%20Hern%C3%A1n%20Velarde%20285%2C%20Lima%2015046!5e0!3m2!1ses!2spe!4v1747847673590!5m2!1ses!2spe"
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -176,7 +175,6 @@
       </div>
     </section>
 
-    <!-- Sección de FAQ -->
     <section class="faq-section">
       <div class="container">
         <h2>Preguntas Frecuentes</h2>
@@ -249,7 +247,10 @@
     <div class="container">
       <div class="footer-columns">
         <div class="footer-column">
-          <h3>CloudTech</h3>
+          <div class="footer-logo">
+            <img src="../image/logo-cloudtechnologies-sf.jpg" alt="CloudTech" class="footer-logo-img">
+            <h3>CloudTech</h3>
+          </div>
           <p>Soluciones cloud innovadoras para el futuro digital</p>
         </div>
         <div class="footer-column">
@@ -275,7 +276,6 @@
   </footer>
 
   <style>
-    /* Estilos específicos para la página de contacto */
     .contact-section {
       padding: 80px 0;
     }
@@ -286,7 +286,6 @@
       gap: 50px;
     }
 
-    /* Información de contacto */
     .contact-info {
       padding-right: 20px;
     }
@@ -333,7 +332,6 @@
       color: #7f8c8d;
     }
 
-    /* Redes sociales */
     .social-media h3 {
       margin-bottom: 20px;
       font-size: 1.2rem;
@@ -365,7 +363,6 @@
       height: 20px;
     }
 
-    /* Formulario de contacto */
     .contact-form-container {
       background-color: white;
       padding: 40px;
@@ -448,7 +445,6 @@
       background-color: #2980b9;
     }
 
-    /* Mapa */
     .map-section {
       padding: 60px 0;
       background-color: #f5f7fa;
@@ -462,7 +458,6 @@
       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     }
 
-    /* FAQ */
     .faq-section {
       padding: 80px 0;
     }
@@ -526,7 +521,6 @@
       text-decoration: underline;
     }
 
-    /* Responsive */
     @media (max-width: 768px) {
       .contact-grid {
         grid-template-columns: 1fr;
@@ -552,7 +546,6 @@
   </style>
 
   <script>
-    // Script para FAQs
     document.addEventListener('DOMContentLoaded', function () {
       const faqItems = document.querySelectorAll('.faq-item');
 
@@ -560,14 +553,12 @@
         const question = item.querySelector('.faq-question');
 
         question.addEventListener('click', () => {
-          // Cerrar todos los items
           faqItems.forEach(otherItem => {
             if (otherItem !== item && otherItem.classList.contains('active')) {
               otherItem.classList.remove('active');
             }
           });
 
-          // Alternar el estado del item actual
           item.classList.toggle('active');
         });
       });
