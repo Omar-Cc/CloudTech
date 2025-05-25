@@ -76,7 +76,7 @@ tecnologias-cloud-website/
 
 1.  **Clonar el Repositorio**:
     ```bash
-    git clone [<url-del-repositorio>](https://github.com/Omar-Cc/CloudTech.git)
+    git clone https://github.com/Omar-Cc/CloudTech.git
     cd tecnologias-cloud-website
     ```
 2.  **Abrir el Sitio**:
